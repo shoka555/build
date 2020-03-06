@@ -771,7 +771,8 @@ prepare_host()
 	nfs-kernel-server btrfs-progs ncurses-term p7zip-full kmod dosfstools libc6-dev-armhf-cross \
 	curl patchutils liblz4-tool libpython2.7-dev linux-base swig aptly acl python3-dev \
 	locales ncurses-base pixz dialog systemd-container udev lib32stdc++6 libc6-i386 lib32ncurses5 lib32tinfo5 \
-	bison libbison-dev flex libfl-dev cryptsetup gpgv1 gnupg1 cpio aria2 pigz dirmngr python3-distutils"
+	bison libbison-dev flex libfl-dev cryptsetup gpgv1 gnupg1 cpio aria2 pigz dirmngr python3-distutils \
+	ccache aria2 libusb-1.0-0-dev"
 
 	local codename=$(lsb_release -sc)
 
